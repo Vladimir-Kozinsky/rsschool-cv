@@ -18,3 +18,13 @@ Skills
 ------
 + HTML5, CSS3, JavaScript React JS, TypeScript, React-Router, Redux, API, AJAX, Git, mongoDB, Express
 + Hard worker, easy-to-learn, focus on results, analytical mindset, sociability, punctuality, responsibility.
+
+Certificates
+--------------
++ Basics of HTML and CSS
++ JS/FE PRE-SCHOOL 2022 (JAVASCRIPT)
+
+Languages
+-------------
++ Russian (Native)
++ English (Intermediate)
