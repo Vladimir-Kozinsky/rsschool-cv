@@ -276,8 +276,35 @@
             </div>
         </section>
     </main>
+    <footer>
+        <div class="container developerInfo-container">
+            <div class="rsschol-link">
+                <a href="https://rs.school/js-stage0/"><img src="./assets/rs_school_js.svg" alt="logo-rsschool"></a>
+                <a href="https://rs.school/js-stage0/">© 2022 The Rolling Scopes</a>
+            </div>
 
-
+            <div class="footer-links">
+                <a href=""><img src="./assets/Youtube.png" alt="link"></a>
+                <a href=""><img src="./assets/Instagram.png" alt="link"></a>
+                <a href=""><img src="./assets/Facebook.png" alt="link"></a>
+                <a href=""><img src="./assets/Twitter.png" alt="link"></a>
+                <a href=""><img src="./assets/Pinterest.png" alt="link"></a>
+            </div>
+            <a href="https://github.com/Vladimir-Kozinsky">Vladimir Kozinsky</a>
+        </div>
+    </footer>
+    <script>
+        let element = document.getElementById('about')
+        let header = document.getElementById('panel')
+        const scrolling = () => {
+            if (element.getBoundingClientRect().top < 0) {
+                header.classList.add("_active")
+            } else {
+                header.classList.remove("_active")
+            }
+        }
+        document.addEventListener("scroll", scrolling, false);
+    </script>
 </body>
 
 </html>
